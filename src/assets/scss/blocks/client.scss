@@ -1,0 +1,27 @@
+.client {
+    background: #252222;
+    padding: 42px 0 90px;
+    &-flex {
+        display: flex;
+        margin-bottom: 71px;
+        @include breakpoint($bp-1200) {
+            justify-content: center;
+        }
+        @include breakpoint($bp-600) {
+            margin-bottom: 30px;
+        }
+    }
+    img {
+        margin-top: 50px;
+        max-width: 100%;
+        @include breakpoint($bp-1200) {
+            margin-top: 0px;
+        }
+    }
+}
+.client-img {
+    @include breakpoint($bp-1200) {
+        display: flex;
+        justify-content: center;
+    }
+}

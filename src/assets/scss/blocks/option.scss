@@ -1,0 +1,45 @@
+.option {
+    background: #252222;
+    padding: 40px 0 90px;
+    &-block {
+        border: 1px solid #FAC500;
+        box-sizing: border-box;
+        border-radius: 70px;
+        overflow: hidden;
+        max-width: 330px;
+        height: 390px;
+        &__title {
+            text-align: center;
+            font-family: 'Montserrat-SemiBold';
+            font-weight: 600;
+            color: black;
+            font-size: 20px;
+            line-height: 26px;
+            padding: 28px 20px;
+            background: #FAC500;
+            
+        }
+        &__p {
+            text-align: center;
+            padding: 33px 16px 0;
+            font-family: 'Montserrat-Regular';
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+            color: #FEFEFE;
+        }
+    }
+    &-btn {
+        margin-top: -40px;
+        max-width: 330px;
+        display: flex;
+        justify-content: center;
+    }
+}
+.option-block-center {
+    @include breakpoint($bp-1200) {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+}

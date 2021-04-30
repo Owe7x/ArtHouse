@@ -1,0 +1,65 @@
+.f-display {
+    padding-bottom: 90px;
+    &__nav {
+        margin-top: 80px;
+        margin-bottom: 85px;
+    }
+    &__li {
+        color: #FEFEFE;
+        font-size: 32px;
+        line-height: 41px;
+        margin-bottom: 15px;
+        position: relative;
+        &::after {
+            content: '';
+            display: block;
+            width: 81px;
+            height: 81px;
+            background: url(../images/li.png);
+            position: absolute;
+            top: -13px;
+            left: -75px;
+        }
+        @include breakpoint($bp-1200) {
+            font-size: 26px;
+            line-height: 35px;
+        }
+        @include breakpoint($bp-600) {
+            font-size: 18px;
+            line-height: 25px;
+        }
+    }
+    &__ul {
+        padding: 0;
+        @include breakpoint($bp-1400) {
+            padding: 0 0 0 60px;
+        }
+    }
+}
+.f-p {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 61px;
+    margin-bottom: 70px;
+}
+.f-display-img {
+    img {
+        max-width: 100%;
+    }
+    @include breakpoint($bp-1200) {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+.f-display-bg {
+    padding-top: 153px;
+    background: url(../images/bg-1.jpg);
+    background-repeat: no-repeat;
+    padding-top: 153px;
+    padding-bottom: 90px;
+    @include breakpoint($bp-600) {
+        background-size: cover;
+        background-position: center center;
+    }
+}

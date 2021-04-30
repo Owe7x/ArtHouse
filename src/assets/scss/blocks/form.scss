@@ -1,0 +1,138 @@
+form {
+    max-width: 1420px;
+    margin: 0 auto;
+    height: 250px;
+    background: #FEFEFE;
+    box-shadow: 3px 5px 8px rgba(109, 89, 5, 0.25);
+    border-radius: 4px;
+    padding-top: 20px;
+    @include breakpoint($bp-1200) {
+        height: auto;
+        padding-bottom: 20px;
+        max-width: 600px;
+    }
+}
+.form-footer {
+    height: 180px;
+    box-shadow: none;
+    border-radius: 0;
+    @include breakpoint($bp-1200) {
+        height: auto;
+        padding-bottom: 20px;
+        max-width: 600px;
+    }
+}
+.form-title {
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 32px;
+    line-height: 41px;
+    @include breakpoint($bp-1200) {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    @include breakpoint($bp-600) {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+.form-subtitle {
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    &__block {
+        color: black;
+        font-family: 'Montserrat-Regular';
+        font-size: 18px;
+        line-height: 23px;
+        align-items: center;
+        display: flex;
+        margin-right: 5px;
+        @include breakpoint($bp-1200) {
+            font-size: 16px;
+            line-height: 20px;
+        }
+        @include breakpoint($bp-600) {
+            font-size: 14px;
+            line-height: 18px;
+            justify-content: center;
+        }
+    }
+    @include breakpoint($bp-600) {
+        flex-direction: column;
+    }
+}
+.form-blocks {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 130px;
+    margin-bottom: 13px;
+    &--0 {
+        align-items: center;
+        padding: 0 21px;
+        margin-bottom: 36px;
+        @include breakpoint($bp-1400) {
+            padding: 0 5px!important;
+        }
+        @include breakpoint($bp-1200) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    @include breakpoint($bp-1400) {
+        padding: 0 30px;
+    }
+    @include breakpoint($bp-1200) {
+        padding: 0 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.form__link {
+    display: flex;
+    flex-direction: column;
+    input {
+        width: 220px;
+        background: #FEFEFE;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 84px;
+        padding: 12px 20px;
+        &::placeholder {
+            font-family: 'Montserrat-Regular';
+            font-size: 18px;
+            line-height: 23px;
+            color: #878484;
+        }
+    }
+
+}
+.form__link--340 {
+    input {
+        width: 340px;
+        @include breakpoint($bp-600) {
+            width: 220px;
+        }
+    }
+    @include breakpoint($bp-1200) {
+        margin-bottom: 20px;
+    }
+}
+
+.form-p {
+    font-family: 'Montserrat-Regular';
+    font-size: 14px;
+    line-height: 18px;
+    color: black;
+    text-align: center;
+    @include breakpoint($bp-1200) {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    @include breakpoint($bp-600) {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

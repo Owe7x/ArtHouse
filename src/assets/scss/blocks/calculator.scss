@@ -1,0 +1,148 @@
+.calculator {
+    padding-top: 42px;
+    background: url(../images/bg-3.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-bottom: 81px;
+    @include breakpoint($bp-1400) {
+        background: none;
+    }
+}
+.calculator-input {
+    display: flex;
+    margin-bottom: 35px;
+}
+.form_radio {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    label {
+        font-family: 'Montserrat-SemiBold';
+        font-size: 20px;
+        line-height: 26px;
+        color: #000;
+        position: relative;
+        padding-left: 50px;
+        padding-bottom: 8px;
+    }
+    @include breakpoint($bp-1400) {
+        margin-bottom: 15px;
+    }
+}
+.form_radio label:before {
+	content: "";
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+    top: 0;
+	left: 0;
+	bottom: 1px;
+	background: url(../images/Ellipse.png) 0 0 no-repeat;
+}
+.form_radio input[type=radio] {
+	display: none;
+}
+.form_radio input[type=radio]:checked + label:before {
+	background: url(../images/RadiobuttonIcon.png) 0 0 no-repeat;
+}
+.polzunok-container {
+    color: black;
+}
+.polzunok-block {
+    max-width: 700px;
+    color: black;
+    font-family: 'Montserrat-SemiBold';
+}
+.polzunok__text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 26px;
+}
+.polzunok-2 {
+    margin-top: -15px;
+}
+.resualt {
+    margin-top: 53px;
+    display: flex;
+    &-block {
+        margin-right: 20px;
+    }
+}
+.polzunok__result {
+    background: #FEFEFE;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 29px;
+    padding: 8px 15px;
+    text-align: center;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 32px;
+    line-height: 41px;
+    @include breakpoint($bp-600) {
+        font-size: 16px;
+        line-height: 31px;
+        text-align: center;
+    }
+}
+.polzunok__title {
+    font-family: 'Montserrat-Regular';
+    font-size: 18px;
+    line-height: 23px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    
+}
+.profit {
+    margin-top: 41px;
+    display: flex;
+    align-items: center;
+    &__title {
+        font-family: 'Montserrat-SemiBold';
+        font-size: 32px;
+        line-height: 41px;
+        color: black;
+        margin-right: 54px;
+        @include breakpoint($bp-600) {
+            font-size: 18px;
+            line-height: 31px;
+            margin-right: 5px;
+        }
+    }
+}
+#s3 {
+    color: #FAC500;
+    padding-right: 20px;
+    @include breakpoint($bp-600) {
+        padding-right: 0px;
+    }
+}
+.profit-year {
+    display: flex;
+    flex-direction: column;
+    margin-top: 41px;
+    margin-bottom: 25px;
+}
+.profit-year__title {
+    font-family: 'Montserrat-Bold';
+    font-size: 48px;
+    line-height: 62px;
+    color: black;
+    @include breakpoint($bp-600) {
+        font-size: 33px;
+        line-height: 42px;
+        margin-bottom: 5px;
+    }
+}
+.profit-year__result {
+    font-family: 'Montserrat-Bold';
+    font-size: 72px;
+    line-height: 93px;
+    color: #FAC500;
+    @include breakpoint($bp-600) {
+        font-size: 42px;
+        line-height: 52px;
+    }
+    
+}

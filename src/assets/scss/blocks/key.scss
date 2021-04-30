@@ -1,0 +1,28 @@
+.key {
+    background: #252222;
+    padding-top: 33px;
+    padding-bottom: 90px;
+    &-more {
+        margin-bottom: 50px;
+        img {
+            margin-bottom: 20px;
+            max-width: 100%;
+            @include breakpoint($bp-900) {
+                max-width: 340px;
+            }
+            @include breakpoint($bp-600) {
+                max-width: 305px;
+            }
+        }
+    }
+    &-btn {
+        display: flex;
+        align-items: center;
+    }
+}
+.key-img {
+    @include breakpoint($bp-900) {
+        display: flex;
+        justify-content: center;
+    }
+}

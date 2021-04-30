@@ -1,0 +1,19 @@
+.market {
+    background: url(../images/bg-5.jpg);
+    background-repeat: no-repeat;
+    padding: 28px 0 330px;
+    &-flex {
+        display: flex;
+        margin-bottom: 113px;
+        @include breakpoint($bp-600) {
+            flex-direction: column;
+        }
+    }
+    @include breakpoint($bp-600) {
+        background-position: top center;
+        padding: 28px 0 60px;
+    }
+}
+.bg-text--1 {
+    z-index: 0;
+}

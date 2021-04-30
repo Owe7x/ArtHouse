@@ -1,0 +1,53 @@
+.btn {
+    width: 270px;
+    height: 66px;
+    background: #FFDE31;
+    box-shadow: 0px 4px 0px #DFC229, 0px 9px 4px rgba(198, 172, 35, 0.3);
+    border-radius: 39px;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    margin: 0 auto;
+    &--form {
+        width: 312px!important;
+        font-family: 'Montserrat-SemiBold';
+        font-size: 20px;
+        line-height: 26px;
+        height: 89px;
+        margin: 0;
+        position: relative;
+        &::after {
+            content: '';
+            display: block;
+            background: url(../images/form-btn.png);
+            background-repeat: no-repeat;
+            width: 207px;
+            height: 379px;
+            position: absolute;
+            right: -110px;
+            top: -190px;
+            @include breakpoint($bp-1400) {
+                display: none;
+            }
+        }
+        @include breakpoint($bp-600) {
+            width: 220px!important;
+        }
+    }
+    &-form--footer {
+        width: 323px;
+        height: 66px;
+        margin: 15px 0 0 0;
+        @include breakpoint($bp-600) {
+            width: 290px!important;
+        }
+    }
+    &--calc {
+        width: 349px!important;
+        @include breakpoint($bp-600) {
+            width: 305px!important;
+        }
+    }
+}

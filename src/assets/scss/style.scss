@@ -1,0 +1,48 @@
+@import "vars";
+@import "vendor/reset";
+@import "mixins";
+@import 'bootstrap/scss/bootstrap';
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #fff;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: $white;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* Blocks */
+@import "blocks/header.scss";
+@import "blocks/stylesheet.scss";
+@import "blocks/title.scss";
+@import "blocks/f-display.scss";
+@import "blocks/form.scss";
+@import "blocks/key.scss";
+@import "blocks/btn.scss";
+@import "blocks/design.scss";
+@import "blocks/option.scss";
+@import "blocks/math.scss";
+@import "blocks/calculator.scss";
+@import "blocks/tools.scss";
+@import "blocks/market.scss";
+@import "blocks/team.scss";
+@import "blocks/client.scss";
+@import "blocks/slider.scss";
+@import "blocks/footer-main.scss";
+@import "blocks/footer.scss";
+@import "blocks/slick-theme.scss";
+@import "blocks/slick.scss";
+@import "blocks/ion.rangeSlider.scss";

@@ -1,0 +1,53 @@
+.math {
+    background: url(../images/bg-2.jpg);
+    background-repeat: no-repeat;
+    padding: 58px 0 380px;
+    @include breakpoint($bp-600) {
+        padding: 58px 0 100px;
+    }
+}
+.math-container {
+    max-width: 608px;
+    margin-top: 60px;
+}
+.questions-menu {
+    border-bottom: 1px solid #FEFEFE;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    @include breakpoint($bp-600) {
+        font-size: 18px;
+        line-height: 31px;
+    }
+}
+.spoiler_links {
+    background: url(../images/open.png) no-repeat;
+    width: 35px;
+    height: 16px;
+    cursor: pointer;
+}
+.close {
+    background: url(../images/close.png) no-repeat;
+    width: 21px;
+    height: 28px;
+}
+.spoiler_body {
+    display:none;
+}
+.spoiler-li {
+    list-style: none;
+    font-family: 'Montserrat-Regular';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 10px;
+    @include breakpoint($bp-600) {
+        font-size: 13px;
+        line-height: 18px;
+    }
+}

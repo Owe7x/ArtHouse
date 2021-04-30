@@ -1,0 +1,35 @@
+.footer {
+    display: block;
+    background: #E7E5E5;
+    padding: 29px 0;
+    &-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include breakpoint($bp-600) {
+            flex-direction: column;
+        }
+    }
+    &-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        @include breakpoint($bp-600) {
+            align-items: center;
+        }
+    }
+    &-logo {
+        @include breakpoint($bp-600) {
+            margin-bottom: 10px;
+        }
+    }
+}
+.arthouse {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 20px;
+    line-height: 26px;
+    color: black;
+    @include breakpoint($bp-600) {
+        margin-bottom: 10px;
+    }
+}

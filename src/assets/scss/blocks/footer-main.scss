@@ -1,0 +1,28 @@
+.footer-main {
+    background: url(../images/bg-7.jpg);
+    background-repeat: no-repeat;
+    padding-top: 190px;
+    @include breakpoint($bp-1200) {
+        background-size: cover;
+    }
+    @include breakpoint($bp-600) {
+        padding-top: 50px;
+    }
+    
+}
+.footer-main-container {
+    position: relative;
+    &::after {
+        content: '';
+        display: block;
+        background: url(../images/footer-main.png);
+        width: 412px;
+        height: 472px;
+        position: absolute;
+        top: -147px;
+        right: 0;
+        @include breakpoint($bp-1400) {
+            display: none;
+        }
+    }
+}

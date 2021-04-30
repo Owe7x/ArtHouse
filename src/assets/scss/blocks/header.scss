@@ -1,0 +1,41 @@
+.header {
+    background: #E7E5E5;
+    padding: 25px 0;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include breakpoint($bp-600) {
+            flex-direction: column;
+        }
+    }
+    &-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        a {
+            font-family: 'Montserrat-Regular';
+            font-size: 18px;
+            line-height: 36px;
+            @include breakpoint($bp-1200) {
+                font-size: 16px;
+                line-height: 25px;
+            }
+            @include breakpoint($bp-600) {
+                font-size: 14px;
+                line-height: 18px;
+            }
+        }
+    }
+}
+.header-tel {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 26px;
+}
+.container-1920 {
+    max-width: 1920px;
+    margin: 0 auto;
+}

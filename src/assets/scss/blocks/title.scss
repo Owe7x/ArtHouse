@@ -1,0 +1,388 @@
+.title {
+    font-family: 'Montserrat-Bold';
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    @include breakpoint($bp-1200) {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    @include breakpoint($bp-600) {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    &--center {
+        text-align: center;
+        color: black;
+        font-size: 72px;
+        line-height: 72px;
+        @include breakpoint($bp-1200) {
+            font-size: 52px;
+            line-height: 52px;
+        }
+        @include breakpoint($bp-600) {
+            font-size: 32px;
+            line-height: 32px;
+        }
+    }
+    &--1350 {
+        max-width: 1350px;
+        margin-bottom: 60px;
+    }
+    &--1264 {
+        max-width: 1264px;
+        font-size: 72px;
+        line-height: 72px;
+        color: #252222;
+        margin-bottom: 69px;
+        @include breakpoint($bp-1200) {
+            font-size: 52px;
+            line-height: 52px;
+        }
+        @include breakpoint($bp-600) {
+            font-size: 32px;
+            line-height: 32px;
+            margin-bottom: 20px;
+        }
+    }
+    &--1228 {
+        max-width: 1228px;
+        color: black;
+        font-size: 48px;
+        line-height: 62px;
+        margin-bottom: 20px;
+        @include breakpoint($bp-1200) {
+            font-size: 38px;
+            line-height: 42px;
+        }
+        @include breakpoint($bp-600) {
+            font-size: 25px;
+            line-height: 32px;
+        }
+    }
+    &--1026 {
+        max-width: 1090px;
+    }
+    &--1024 {
+        max-width: 1024px;
+        font-size: 72px;
+        line-height: 93px;
+        margin-bottom: 48px;
+        @include breakpoint($bp-1200) {
+            font-size: 52px;
+            line-height: 52px;
+        }
+        @include breakpoint($bp-600) {
+            font-size: 32px;
+            line-height: 32px;
+        }
+    }
+    &--1053 {
+        margin-top: 43px;
+        max-width: 1053px;
+        color: black;
+        font-size: 48px;
+        line-height: 62px;
+        margin-bottom: 66px;
+        @include breakpoint($bp-1200) {
+            font-size: 38px;
+            line-height: 42px;
+        }
+        @include breakpoint($bp-600) {
+            font-size: 25px;
+            line-height: 32px;
+        }
+    }
+    &--917 {
+        max-width: 917px;
+        color: black;
+        font-style: 48px;
+        line-height: 62px;
+        margin-bottom: 46px;
+        @include breakpoint($bp-1200) {
+            font-size: 38px;
+            line-height: 42px;
+        }
+        @include breakpoint($bp-600) {
+            font-size: 25px;
+            line-height: 32px;
+        }
+    }
+    &--868 {
+        max-width: 868px;
+        font-size: 48px;
+        line-height: 62px;
+        margin-bottom: 59px;
+        @include breakpoint($bp-1200) {
+            font-size: 38px;
+            line-height: 42px;
+        }
+        @include breakpoint($bp-600) {
+            font-size: 25px;
+            line-height: 32px;
+        }
+    }
+    &--800 {
+        max-width: 800px;
+        margin-bottom: 20px;
+        @include breakpoint($bp-1200) {
+            max-width: 100%;
+        }
+    }
+    &--745 {
+        max-width: 745px;
+        margin-bottom: 25px;
+        @include breakpoint($bp-1200) {
+            max-width: 100%;
+        }
+    }
+    &--543 {
+        max-width: 543px;
+        font-size: 48px;
+        line-height: 62px;
+        margin-bottom: 20px;
+        color: black;
+        @include breakpoint($bp-1200) {
+            max-width: 100%;
+            font-size: 38px;
+            line-height: 42px;
+        }
+        @include breakpoint($bp-600) {
+            font-size: 25px;
+            line-height: 32px;
+        }
+    }
+    &--black {
+        color: black;
+        margin-bottom: 15px;
+    }
+    &--green {
+        font-family: 'Montserrat-Bold';
+        color: #C9E915;
+        font-size: 72px;
+        line-height: 72px;
+        text-transform: uppercase;
+        margin-bottom: 69px;
+        @include breakpoint($bp-1200) {
+            font-size: 52px;
+            line-height: 52px;
+        }
+        @include breakpoint($bp-600) {
+            font-size: 32px;
+            line-height: 32px;
+        }
+    }
+}
+.yellow {
+    color: #FAC500;
+}
+.title-f {
+    font-family: 'Montserrat-SemiBold';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: black;
+    &__p {
+        font-family: 'Montserrat-Regular';
+        font-size: 18px;
+        line-height: 23px;
+        font-weight: normal;
+        color: black;
+    }
+    &--502 {
+        max-width: 502px;
+        margin-bottom: 26px;
+    }
+}
+
+.bg-text {
+    position: relative;
+    max-width: 310px;
+    &::after {
+        content: '';
+        display: block;
+        background: url(../images/BgText.png);
+        width: 263px;
+        height: 295px;
+        position: absolute;
+        top: -100px;
+        left: -80px;
+        z-index: -1;
+    }
+}
+
+.p {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 20px;
+    line-height: 26px;
+    @include breakpoint($bp-1200) {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    @include breakpoint($bp-600) {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    &--927 {
+        max-width: 927px;
+        margin-left: 100px;
+        margin-bottom: 63px;
+    }
+    &--741 {
+        max-width: 847px;
+        color: black;
+        margin-bottom: 145px;
+        @include breakpoint($bp-600) {
+            margin-bottom: 85px;
+        }
+    }
+    &--747 {
+        max-width: 847px;
+        padding-left: 100px;
+        color: black;
+        margin-bottom: 25px;
+        @include breakpoint($bp-600) {
+            padding-left: 0;
+        }
+    }
+    &--664 {
+        font-family: 'Montserrat-Regular';
+        color: black;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        max-width: 664px;
+        @include breakpoint($bp-1200) {
+            max-width: 100%;
+            font-size: 15px;
+            line-height: 19px;
+        }
+        @include breakpoint($bp-600) {
+            font-size: 13px;
+            line-height: 17px;
+        }
+    }
+    &--542 {
+        max-width: 542px;
+        color: black;
+    }
+    &--442 {
+        max-width: 486px;
+        margin-bottom: 95px;
+        font-size: 20px;
+        @include breakpoint($bp-1200) {
+            max-width: 100%;
+            font-size: 16px;
+        }
+        @include breakpoint($bp-600) {
+            font-size: 13px;
+            margin-bottom: 70px;
+        }
+    }
+    &--340 {
+        font-family: 'Montserrat-Regular';
+        font-size: 18px;
+        line-height: 23px;
+        color: #FEFEFE;
+        margin-right: 30px;
+        max-width: 340px;
+        &:last-child {
+            @include breakpoint($bp-600) {
+                margin-right: 5px;
+                margin-left: 0;
+            }
+        }
+        @include breakpoint($bp-1200) {
+            font-size: 15px;
+            line-height: 19px;
+        }
+        @include breakpoint($bp-600) {
+            font-size: 13px;
+            line-height: 17px;
+            margin-left: 10px;
+        }
+    }
+    &--335 {
+        max-width: 335px;
+        font-family: 'Montserrat-Regular';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: black;
+        margin-right: 85px;
+        &:nth-child(2) {
+            @include breakpoint($bp-600) {
+                margin-bottom: 150px;
+            }
+        }
+        &:nth-child(3) {
+            @include breakpoint($bp-600) {
+                margin-bottom: 0;
+            }
+        }
+        @include breakpoint($bp-1200) {
+            font-size: 15px;
+            line-height: 19px;
+        }
+        @include breakpoint($bp-600) {
+            font-size: 13px;
+            line-height: 17px;
+            margin-right: 0;
+            max-width: 250px;
+            margin: 0 auto 130px;
+        }
+        
+    }
+    &--297 {
+        max-width: 300px;
+        font-family: 'Montserrat-Regular';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: black;
+        @include breakpoint($bp-1200) {
+            max-width: 100%;
+            font-size: 15px;
+            line-height: 19px;
+        }
+        @include breakpoint($bp-600) {
+            font-size: 13px;
+            line-height: 17px;
+            max-width: 150px;
+            margin-right: 10px;
+        }
+    }
+    &--298 {
+        max-width: 300px;
+        font-family: 'Montserrat-Regular';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: black;
+        @include breakpoint($bp-1200) {
+            max-width: 100%;
+            font-size: 15px;
+            line-height: 19px;
+        }
+        @include breakpoint($bp-600) {
+            max-width: 100%;
+        }
+    }
+    &--math {
+        font-style: 32px;
+        line-height: 41px;
+        color: #FEFEFE;
+        @include breakpoint($bp-1200) {
+            font-size: 26px;
+            line-height: 35px;
+        }
+        @include breakpoint($bp-600) {
+            font-size: 20px;
+            line-height: 25px;
+        }
+    }
+}
+.f-300 {
+    font-family: 'Montserrat-Regular';
+    font-weight: 300!important;
+}

@@ -1,0 +1,48 @@
+.slider {
+    background: url(../images/bg-6.jpg);
+    background-repeat: no-repeat;
+    padding: 20px 5px 75px;
+    background-size: cover;
+}
+.wedding__item {
+    max-width: 460px;
+    height: 610px;
+    padding: 51px 47px 20px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    @include breakpoint($bp-600) {
+        padding: 31px 27px 20px;
+    }
+}
+.slider-block-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.slider-title {
+    font-family: 'Montserrat-SemiBold';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #2F2E2E;
+}
+.slider-social {
+    display: flex;
+    a {
+        margin-right: 10px;
+    }
+}
+.slider-block-info {
+    font-family: 'Montserrat-Regular';
+    font-size: 18px;
+    line-height: 23px;
+    color: #2F2E2E;
+}
+.wedding {
+    margin-top: 82px;
+}

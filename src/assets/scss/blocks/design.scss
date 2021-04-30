@@ -1,0 +1,53 @@
+.design {
+    padding: 90px;
+    @include breakpoint($bp-900) {
+        padding: 45px;
+    }
+    @include breakpoint($bp-600) {
+        padding: 10px 0;
+    }
+    &-ul {
+        padding: 0;
+    }
+    &-li {
+        font-family: 'Montserrat-Regular';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: black;
+        padding-left: 25px;
+    }
+    &-link {
+        display: flex;
+        align-items: center;
+        margin-bottom: 35px;
+        padding-left: 60px;
+        padding-right: 30px;
+        @include breakpoint($bp-600) {
+            padding-left: 10px;
+        }
+    }
+    &-nav {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    &-flex {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+        margin-top: 100px;
+        @include breakpoint($bp-600) {
+            padding-left: 10px;
+        }
+    }
+    img {
+        max-width: 100%;
+    }
+}
+.design-img {
+    @include breakpoint($bp-1200) {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
