@@ -42,7 +42,7 @@ $(document).ready(function($){
 })
 
 
-function sliderHandler(price) {
+ function sliderHandler(price) {
     // calculate
     if (price === undefined) {
       price = srvPrices;
@@ -50,9 +50,9 @@ function sliderHandler(price) {
  
     var persents = price.totalS1 * price.totalS2 * 120000 * 0.05;
     var result = Math.round(price.totalS1 * price.totalS2 * 120000 - persents);
-    document.getElementById("s1").innerHTML = result.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ") + ' ' + 'рублей';
-    document.querySelector(".polzunok__value").innerHTML = price.totalS1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ") ;
-    document.querySelector(".polzunok__value-one").innerHTML = price.totalS2;
+    // document.getElementById("s1").innerHTML = result.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ") + ' ' + 'рублей';
+    // document.querySelector(".polzunok__value").innerHTML = price.totalS1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ") ;
+    // document.querySelector(".polzunok__value-one").innerHTML = price.totalS2;
   }
  
   var srvPrices = {}
@@ -72,5 +72,5 @@ function sliderHandler(price) {
       srvPrices.totalS1 = data.from_value;
       sliderHandler(srvPrices)
     }
- });
+ });  
  

@@ -138,9 +138,10 @@
         }
     }
     &--543 {
-        max-width: 543px;
+        max-width: 720px;
         font-size: 48px;
         line-height: 62px;
+        margin-top: 150px;
         margin-bottom: 20px;
         color: black;
         @include breakpoint($bp-1200) {
@@ -371,7 +372,7 @@
         }
     }
     &--298 {
-        max-width: 300px;
+        max-width: 664px;
         font-family: 'Montserrat-Regular';
         font-weight: 400;
         font-size: 18px;

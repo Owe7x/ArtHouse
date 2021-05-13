@@ -17,10 +17,10 @@
         content: '';
         display: block;
         background: url(../images/footer-main.png);
-        width: 412px;
-        height: 472px;
+        width: 465px;
+        height: 465px;
         position: absolute;
-        top: -147px;
+        top: -140px;
         right: 0;
         @include breakpoint($bp-1400) {
             display: none;

@@ -57,7 +57,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <form action="">
+                        <form action="mail.php" method="post" id="form1">
                                 <div class="form-title">
                                     Получить подробные материалы франшизы
                                 </div>
@@ -76,7 +76,8 @@
                                     </div>
                                 </div>
                                 <div class="form-blocks">
-                                    <input type="hidden" name="admin_email[]" value="test@mail.ru">
+                                    <input type="hidden" name="admin_email[]" value="owe7x@yandex.ru">
+                                    <input type="hidden" name="admin_email[]" value="thedickst@gmail.com">
                                     <input type="hidden" name="form_subject" value="Первая Форма">
                                     <div class="form__link">
                                         <label for="name">Имя</label>
@@ -97,6 +98,7 @@
                                     нажимая на кнопку, я подтверждаю, что ознакомлен и даю согласие  на обработку персональных данных на условиях и для целей, определяемых <a href=""> политикой конфиденциальности </a>
                                 </div>
                         </form>
+                        
                     </div>
                 </div>
                 <div class="container">
@@ -685,12 +687,6 @@
             </div>
             <div class="team">
                 <div class="container">
-                    <div class="title title--1228">
-                        Команда дизайнеров уже готова разработать проект для ваших клиентов 
-                    </div>
-                    <div class="p p--664">
-                        Важный плюс сотрудничества с ART HOUSE — не нужно собирать с нуля штат дизайнеров. Все проекты мы разработаем в собственном бюро и передадим вам для продажи клиенту или реализации
-                    </div>
                     <div class="row">
                         <div class="col-12 col-xl-6">
                             <div class="team-img">
@@ -699,12 +695,28 @@
                         </div>
                         <div class="col-12 col-xl-6">
                             <div class="title title--543">
-                                Найдём идеальный вариант для вашего города  
+                                Команда дизайнеров уже готова разработать проект для ваших клиентов 
+                            </div>
+                            <div class="team-block">
+                                <div class="p p--298">
+                                    Важный плюс сотрудничества с ART HOUSE — не нужно собирать с нуля штат дизайнеров. Все проекты мы разработаем в собственном бюро и передадим вам для продажи клиенту или реализации
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-6">
+                            <div class="title title--543">
+                                Найдём идеальный вариант для вашего города 
                             </div>
                             <div class="team-block">
                                 <div class="p p--298">
                                     До начала сотрудничества мы проанализируем ваш регион и выясним, какой формат работы перспективнее для вас — только отдел продаж, шоурум и ремонт. Такой подход снижает риски и ускоряет окупаемость
+            
                                 </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-6">
+                            <div class="team-img">
+                                <img src="assets/images/team-3.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -894,10 +906,11 @@
                         <div class="title title--868">
                             Гарантируем каждому партнёру полное сопровождение 
                         </div>
-                        <form action="" class="form-footer">
+                        <form action="mail.php" method="post" class="form-footer" id="form2">
                             <div class="form-blocks form-blocks--0">
-                                <input type="hidden" name="admin_email[]" value="test@mail.ru">
-                                <input type="hidden" name="form_subject" value="Первая Форма">
+                                <input type="hidden" name="admin_email[]" value="owe7x@yandex.ru">
+                                <input type="hidden" name="admin_email[]" value="thedickst@gmail.com">
+                                <input type="hidden" name="form_subject" value="Вторая Форма">
                                 <div class="form__link">
                                     <label for="name">Имя</label>
                                     <input type="text" id="fname" data-validate-field="name" name="name" placeholder="Ваше имя">
@@ -912,8 +925,8 @@
                                     <input type="email" data-validate-field="email" name="email" placeholder="email@mail.com"></input>
                                 </div>
                                 <div class="form__link">
-                                    <label for="tel">Город</label>
-                                    <input type="tel" data-validate-field="tel" name="tel" placeholder="Ваш город">
+                                    <label for="city">Город</label>
+                                    <input name="city" data-validate-field="city" placeholder="Ваш город">
                                 </div>
                                 <button type="submit" value="Submit" class="btn btn-form--footer">Проверить свой город </span></button>  
                             </div> 
@@ -946,7 +959,6 @@
 
     <!-- JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.4/jquery.fancybox.min.js" integrity="sha512-lu0sjbkK/BSrjKyqcKZbU8rKB9hDW01niztDLKJEt6B0tA9C6tXjv3Z3O6eR2Efv8DcJxRpgue5PWTNRVFNMxg==" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
