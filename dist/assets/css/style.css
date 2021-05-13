@@ -12673,7 +12673,7 @@ body {
     font-size: 48px;
     line-height: 62px;
     margin-bottom: 66px;
-    padding: 0 10px;
+    padding: 0 50px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -12687,6 +12687,7 @@ body {
     .title--1053 {
         font-size: 25px;
         line-height: 32px;
+        padding: 0 10px;
     }
 }
 
@@ -12769,6 +12770,7 @@ body {
         max-width: 100%;
         font-size: 38px;
         line-height: 42px;
+        margin-top: 30px;
     }
 }
 
@@ -13181,7 +13183,7 @@ body {
 }
 
 .f-display-img {
-    padding: 0 10px;
+    padding: 0 50px;
 }
 
 .f-display-img img {
@@ -13195,6 +13197,12 @@ body {
         -ms-flex-pack: center;
         justify-content: center;
         margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .f-display-img {
+        padding: 0 10px;
     }
 }
 
@@ -13466,7 +13474,7 @@ form {
 
 .key {
     background: #252222;
-    padding: 33px 10px 90px;
+    padding: 33px 50px 90px;
 }
 
 .key-more {
@@ -13496,6 +13504,12 @@ form {
     display: flex;
     -ms-flex-align: center;
     align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .key {
+        padding: 33px 10px 90px;
+    }
 }
 
 .key-img {
@@ -13664,7 +13678,13 @@ form {
 
 .option {
     background: #252222;
-    padding: 40px 10px 90px;
+    padding: 40px 50px 90px;
+}
+
+@media screen and (max-width: 600px) {
+    .option {
+        padding: 40px 10px 90px;
+    }
 }
 
 .option-block {
@@ -13720,13 +13740,19 @@ form {
     background: url(../images/bg-2.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 58px 10px 200px;
+    padding: 58px 50px 200px;
 }
 
 @media screen and (max-width: 900px) {
     .math {
         padding: 58px 10px 100px;
         background-size: cover;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .math {
+        padding: 58px 10px 200px;
     }
 }
 
@@ -13794,12 +13820,18 @@ form {
     background: url(../images/bg-3.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    padding: 42px 10px 81px;
+    padding: 42px 50px 81px;
 }
 
 @media screen and (max-width: 1400px) {
     .calculator {
         background: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .calculator {
+        padding: 42px 10px 81px;
     }
 }
 
@@ -13989,7 +14021,13 @@ form {
 
 .tools {
     background: #252222;
-    padding: 50px 10px 80px;
+    padding: 50px 50px 80px;
+}
+
+@media screen and (max-width: 600px) {
+    .tools {
+        padding: 50px 10px 80px;
+    }
 }
 
 .tools-block {
@@ -14065,7 +14103,7 @@ form {
 .market {
     background: url(../images/bg-5.jpg);
     background-repeat: no-repeat;
-    padding: 28px 10px 330px;
+    padding: 28px 50px 330px;
 }
 
 .market-flex {
@@ -14084,7 +14122,7 @@ form {
 @media screen and (max-width: 600px) {
     .market {
         background-position: top center;
-        padding: 28px 0 20px;
+        padding: 28px 10px 20px;
         background-size: cover;
     }
 }
@@ -14094,7 +14132,7 @@ form {
 }
 
 .team {
-    padding: 30px 10px 90px;
+    padding: 30px 50px 90px;
 }
 
 .team img {
@@ -14104,6 +14142,12 @@ form {
 
 .team-block {
     position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .team {
+        padding: 30px 10px 90px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -14118,7 +14162,13 @@ form {
 
 .client {
     background: #252222;
-    padding: 42px 10px 90px;
+    padding: 42px 50px 90px;
+}
+
+@media screen and (max-width: 600px) {
+    .client {
+        padding: 42px 10px 90px;
+    }
 }
 
 .client-flex {
