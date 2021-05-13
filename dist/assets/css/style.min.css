@@ -7995,7 +7995,7 @@ body {
     font-size: 48px;
     line-height: 62px;
     margin-bottom: 66px;
-    padding: 0 10px; }
+    padding: 0 50px; }
     @media screen and (max-width: 1200px) {
       .title--1053 {
         font-size: 38px;
@@ -8003,7 +8003,8 @@ body {
     @media screen and (max-width: 600px) {
       .title--1053 {
         font-size: 25px;
-        line-height: 32px; } }
+        line-height: 32px;
+        padding: 0 10px; } }
   .title--917 {
     max-width: 917px;
     color: black;
@@ -8054,7 +8055,8 @@ body {
       .title--543 {
         max-width: 100%;
         font-size: 38px;
-        line-height: 42px; } }
+        line-height: 42px;
+        margin-top: 30px; } }
     @media screen and (max-width: 600px) {
       .title--543 {
         font-size: 25px;
@@ -8326,7 +8328,7 @@ body {
   padding: 0 10px; }
 
 .f-display-img {
-  padding: 0 10px; }
+  padding: 0 50px; }
   .f-display-img img {
     max-width: 100%; }
   @media screen and (max-width: 1200px) {
@@ -8334,15 +8336,21 @@ body {
       display: flex;
       justify-content: center;
       margin-bottom: 20px; } }
+  @media screen and (max-width: 600px) {
+    .f-display-img {
+      padding: 0 10px; } }
 
 .f-display-bg {
   background: url(../images/bg-1.jpg);
   background-repeat: no-repeat;
-  padding: 80px 10px 0px; }
+  padding: 80px 50px 0px; }
   @media screen and (max-width: 600px) {
     .f-display-bg {
       background-size: cover;
       background-position: center center; } }
+  @media screen and (max-width: 600px) {
+    .f-display-bg {
+      padding: 80px 10px 0px; } }
 
 form {
   max-width: 1420px;
@@ -8483,7 +8491,7 @@ form {
 
 .key {
   background: #252222;
-  padding: 33px 10px 90px; }
+  padding: 33px 50px 90px; }
   .key-more {
     margin-bottom: 50px; }
     .key-more img {
@@ -8499,6 +8507,9 @@ form {
   .key-btn {
     display: flex;
     align-items: center; }
+  @media screen and (max-width: 600px) {
+    .key {
+      padding: 33px 10px 90px; } }
 
 .key-img {
   width: 100%;
@@ -8606,7 +8617,10 @@ form {
 
 .option {
   background: #252222;
-  padding: 40px 10px 90px; }
+  padding: 40px 50px 90px; }
+  @media screen and (max-width: 600px) {
+    .option {
+      padding: 40px 10px 90px; } }
   .option-block {
     border: 1px solid #FAC500;
     box-sizing: border-box;
@@ -8647,11 +8661,14 @@ form {
   background: url(../images/bg-2.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding: 58px 10px 200px; }
+  padding: 58px 50px 200px; }
   @media screen and (max-width: 900px) {
     .math {
       padding: 58px 10px 100px;
       background-size: cover; } }
+  @media screen and (max-width: 600px) {
+    .math {
+      padding: 58px 10px 200px; } }
 
 .math-container {
   max-width: 608px;
@@ -8702,10 +8719,13 @@ form {
   background: url(../images/bg-3.png);
   background-repeat: no-repeat;
   background-position: right bottom;
-  padding: 42px 10px 81px; }
+  padding: 42px 50px 81px; }
   @media screen and (max-width: 1400px) {
     .calculator {
       background: none; } }
+  @media screen and (max-width: 600px) {
+    .calculator {
+      padding: 42px 10px 81px; } }
 
 .calculator-input {
   display: flex;
@@ -8842,7 +8862,10 @@ form {
 
 .tools {
   background: #252222;
-  padding: 50px 10px 80px; }
+  padding: 50px 50px 80px; }
+  @media screen and (max-width: 600px) {
+    .tools {
+      padding: 50px 10px 80px; } }
   .tools-block {
     border-radius: 20px;
     background: url(../images/bg-4.png);
@@ -8898,7 +8921,7 @@ form {
 .market {
   background: url(../images/bg-5.jpg);
   background-repeat: no-repeat;
-  padding: 28px 10px 330px; }
+  padding: 28px 50px 330px; }
   .market-flex {
     display: flex;
     margin-bottom: 113px; }
@@ -8908,19 +8931,22 @@ form {
   @media screen and (max-width: 600px) {
     .market {
       background-position: top center;
-      padding: 28px 0 20px;
+      padding: 28px 10px 20px;
       background-size: cover; } }
 
 .bg-text--1 {
   z-index: 0; }
 
 .team {
-  padding: 30px 10px 90px; }
+  padding: 30px 50px 90px; }
   .team img {
     margin-top: 45px;
     max-width: 100%; }
   .team-block {
     position: relative; }
+  @media screen and (max-width: 600px) {
+    .team {
+      padding: 30px 10px 90px; } }
 
 @media screen and (max-width: 1200px) {
   .team-img {
@@ -8930,7 +8956,10 @@ form {
 
 .client {
   background: #252222;
-  padding: 42px 10px 90px; }
+  padding: 42px 50px 90px; }
+  @media screen and (max-width: 600px) {
+    .client {
+      padding: 42px 10px 90px; } }
   .client-flex {
     display: flex;
     margin-bottom: 71px; }

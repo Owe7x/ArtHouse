@@ -1,6 +1,9 @@
 .option {
     background: #252222;
-    padding: 40px 10px 90px;
+    padding: 40px 50px 90px;
+    @include breakpoint($bp-600) {
+        padding: 40px 10px 90px;
+    }
     &-block {
         border: 1px solid #FAC500;
         box-sizing: border-box;

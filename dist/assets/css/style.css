@@ -13201,13 +13201,19 @@ body {
 .f-display-bg {
     background: url(../images/bg-1.jpg);
     background-repeat: no-repeat;
-    padding: 80px 10px 0px;
+    padding: 80px 50px 0px;
 }
 
 @media screen and (max-width: 600px) {
     .f-display-bg {
         background-size: cover;
         background-position: center center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .f-display-bg {
+        padding: 80px 10px 0px;
     }
 }
 
@@ -14244,10 +14250,10 @@ form {
     content: '';
     display: block;
     background: url(../images/footer-main.png);
-    width: 412px;
-    height: 472px;
+    width: 465px;
+    height: 465px;
     position: absolute;
-    top: -147px;
+    top: -140px;
     right: 0;
 }
 

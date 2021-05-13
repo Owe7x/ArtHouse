@@ -84,7 +84,7 @@
         font-size: 48px;
         line-height: 62px;
         margin-bottom: 66px;
-        padding: 0 10px;
+        padding: 0 50px;
         @include breakpoint($bp-1200) {
             font-size: 38px;
             line-height: 42px;
@@ -92,6 +92,7 @@
         @include breakpoint($bp-600) {
             font-size: 25px;
             line-height: 32px;
+            padding: 0 10px;
         }
     }
     &--917 {
@@ -148,6 +149,7 @@
             max-width: 100%;
             font-size: 38px;
             line-height: 42px;
+            margin-top: 30px;
         }
         @include breakpoint($bp-600) {
             font-size: 25px;

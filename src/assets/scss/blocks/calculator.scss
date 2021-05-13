@@ -2,9 +2,12 @@
     background: url(../images/bg-3.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    padding: 42px 10px 81px;
+    padding: 42px 50px 81px;
     @include breakpoint($bp-1400) {
         background: none;
+    }
+    @include breakpoint($bp-600) {
+        padding: 42px 10px 81px;
     }
 }
 .calculator-input {

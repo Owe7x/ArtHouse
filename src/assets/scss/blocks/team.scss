@@ -1,11 +1,14 @@
 .team {
-    padding: 30px 10px 90px;
+    padding: 30px 50px 90px;
     img {
         margin-top: 45px;
         max-width: 100%;
     }
     &-block {
         position: relative;
+    }
+    @include breakpoint($bp-600) {
+        padding: 30px 10px 90px;
     }
 }
 .team-img {

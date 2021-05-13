@@ -1,7 +1,7 @@
 .market {
     background: url(../images/bg-5.jpg);
     background-repeat: no-repeat;
-    padding: 28px 10px 330px;
+    padding: 28px 50px 330px;
     &-flex {
         display: flex;
         margin-bottom: 113px;
@@ -11,7 +11,7 @@
     }
     @include breakpoint($bp-600) {
         background-position: top center;
-        padding: 28px 0 20px;
+        padding: 28px 10px 20px;
         background-size: cover;
     }
 }
