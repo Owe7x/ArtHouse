@@ -7835,12 +7835,26 @@ body {
 /* Blocks */
 .header {
   background: #E7E5E5;
-  padding: 25px 0; }
+  padding: 15px 10px; }
+  .header-text {
+    font-size: 28px;
+    color: black;
+    font-family: 'Montserrat-Bold'; }
+    @media screen and (max-width: 900px) {
+      .header-text {
+        font-size: 24px;
+        text-align: center; } }
+    @media screen and (max-width: 700px) {
+      .header-text {
+        margin: 10px 0; } }
+    @media screen and (max-width: 400px) {
+      .header-text {
+        font-size: 18px; } }
   .header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 700px) {
       .header__inner {
         flex-direction: column; } }
   .header-info {
@@ -7859,6 +7873,9 @@ body {
         .header-info a {
           font-size: 14px;
           line-height: 18px; } }
+    @media screen and (max-width: 700px) {
+      .header-info {
+        align-items: center; } }
 
 .header-tel {
   font-family: 'Montserrat-SemiBold';
@@ -7866,6 +7883,12 @@ body {
   font-weight: 600;
   text-decoration: none;
   line-height: 26px; }
+  @media screen and (max-width: 900px) {
+    .header-tel {
+      text-align: right; } }
+  @media screen and (max-width: 700px) {
+    .header-tel {
+      text-align: center; } }
 
 .container-1920 {
   max-width: 1920px;
@@ -7971,7 +7994,8 @@ body {
     color: black;
     font-size: 48px;
     line-height: 62px;
-    margin-bottom: 66px; }
+    margin-bottom: 66px;
+    padding: 0 10px; }
     @media screen and (max-width: 1200px) {
       .title--1053 {
         font-size: 38px;
@@ -8036,7 +8060,7 @@ body {
         line-height: 32px; } }
   .title--black {
     color: black;
-    margin-bottom: 15px; }
+    margin-bottom: 25px; }
   .title--green {
     font-family: 'Montserrat-Bold';
     color: #C9E915;
@@ -8061,13 +8085,15 @@ body {
   font-weight: 600;
   font-size: 20px;
   line-height: 26px;
-  color: black; }
+  color: black;
+  padding: 0 10px; }
   .title-f__p {
     font-family: 'Montserrat-Regular';
     font-size: 18px;
     line-height: 23px;
     font-weight: normal;
-    color: black; }
+    color: black;
+    padding: 0 10px; }
   .title-f--502 {
     max-width: 502px;
     margin-bottom: 26px; }
@@ -8102,6 +8128,10 @@ body {
     max-width: 927px;
     margin-left: 100px;
     margin-bottom: 63px; }
+    @media screen and (max-width: 600px) {
+      .p--927 {
+        margin-left: 0px;
+        margin-bottom: 40px; } }
   .p--741 {
     max-width: 847px;
     color: black;
@@ -8136,6 +8166,16 @@ body {
   .p--542 {
     max-width: 542px;
     color: black; }
+    @media screen and (max-width: 600px) {
+      .p--542 {
+        font-size: 22px;
+        line-height: 28px;
+        font-family: 'Montserrat-Bold'; } }
+    @media screen and (max-width: 600px) {
+      .p--542 {
+        font-size: 20px;
+        line-height: 28px;
+        font-family: 'Montserrat-SemiBold'; } }
   .p--442 {
     max-width: 486px;
     margin-bottom: 95px;
@@ -8281,23 +8321,23 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 61px;
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+  padding: 0 10px; }
 
-.f-display-img img {
-  max-width: 100%; }
-
-@media screen and (max-width: 1200px) {
-  .f-display-img {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px; } }
+.f-display-img {
+  padding: 0 10px; }
+  .f-display-img img {
+    max-width: 100%; }
+  @media screen and (max-width: 1200px) {
+    .f-display-img {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px; } }
 
 .f-display-bg {
-  padding-top: 153px;
   background: url(../images/bg-1.jpg);
   background-repeat: no-repeat;
-  padding-top: 153px;
-  padding-bottom: 90px; }
+  padding: 80px 10px 0px; }
   @media screen and (max-width: 600px) {
     .f-display-bg {
       background-size: cover;
@@ -8408,6 +8448,12 @@ form {
       font-size: 18px;
       line-height: 23px;
       color: #878484; }
+    @media screen and (max-width: 1200px) {
+      .form__link input {
+        width: 340px; } }
+    @media screen and (max-width: 600px) {
+      .form__link input {
+        width: 220px; } }
 
 .form__link--340 input {
   width: 340px; }
@@ -8436,16 +8482,16 @@ form {
 
 .key {
   background: #252222;
-  padding-top: 33px;
-  padding-bottom: 90px; }
+  padding: 33px 10px 90px; }
   .key-more {
     margin-bottom: 50px; }
     .key-more img {
       margin-bottom: 20px;
-      max-width: 100%; }
+      width: 100%;
+      height: 100%; }
       @media screen and (max-width: 900px) {
         .key-more img {
-          max-width: 340px; } }
+          max-width: 450px; } }
       @media screen and (max-width: 600px) {
         .key-more img {
           max-width: 305px; } }
@@ -8453,10 +8499,14 @@ form {
     display: flex;
     align-items: center; }
 
-@media screen and (max-width: 900px) {
-  .key-img {
-    display: flex;
-    justify-content: center; } }
+.key-img {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px; }
+  @media screen and (max-width: 900px) {
+    .key-img {
+      display: flex;
+      justify-content: center; } }
 
 .btn {
   width: 270px;
@@ -8500,12 +8550,12 @@ form {
     margin: 15px 0 0 0; }
     @media screen and (max-width: 600px) {
       .btn-form--footer {
-        width: 290px !important; } }
+        width: 270px !important; } }
   .btn--calc {
     width: 349px !important; }
     @media screen and (max-width: 600px) {
       .btn--calc {
-        width: 305px !important; } }
+        width: 285px !important; } }
 
 .design {
   padding: 90px; }
@@ -8514,7 +8564,7 @@ form {
       padding: 45px; } }
   @media screen and (max-width: 600px) {
     .design {
-      padding: 10px 0; } }
+      padding: 35px 10px 10px; } }
   .design-ul {
     padding: 0; }
   .design-li {
@@ -8555,7 +8605,7 @@ form {
 
 .option {
   background: #252222;
-  padding: 40px 0 90px; }
+  padding: 40px 10px 90px; }
   .option-block {
     border: 1px solid #FAC500;
     box-sizing: border-box;
@@ -8595,10 +8645,12 @@ form {
 .math {
   background: url(../images/bg-2.jpg);
   background-repeat: no-repeat;
-  padding: 58px 0 380px; }
-  @media screen and (max-width: 600px) {
+  background-size: 100% 100%;
+  padding: 58px 10px 200px; }
+  @media screen and (max-width: 900px) {
     .math {
-      padding: 58px 0 100px; } }
+      padding: 58px 10px 100px;
+      background-size: cover; } }
 
 .math-container {
   max-width: 608px;
@@ -8646,11 +8698,10 @@ form {
       line-height: 18px; } }
 
 .calculator {
-  padding-top: 42px;
   background: url(../images/bg-3.png);
   background-repeat: no-repeat;
   background-position: right bottom;
-  padding-bottom: 81px; }
+  padding: 42px 10px 81px; }
   @media screen and (max-width: 1400px) {
     .calculator {
       background: none; } }
@@ -8790,7 +8841,7 @@ form {
 
 .tools {
   background: #252222;
-  padding: 50px 0 80px; }
+  padding: 50px 10px 80px; }
   .tools-block {
     border-radius: 20px;
     background: url(../images/bg-4.png);
@@ -8846,7 +8897,7 @@ form {
 .market {
   background: url(../images/bg-5.jpg);
   background-repeat: no-repeat;
-  padding: 28px 0 330px; }
+  padding: 28px 10px 330px; }
   .market-flex {
     display: flex;
     margin-bottom: 113px; }
@@ -8856,14 +8907,14 @@ form {
   @media screen and (max-width: 600px) {
     .market {
       background-position: top center;
-      padding: 28px 0 60px; } }
+      padding: 28px 0 20px;
+      background-size: cover; } }
 
 .bg-text--1 {
   z-index: 0; }
 
 .team {
-  padding-top: 30px;
-  padding-bottom: 90px; }
+  padding: 30px 10px 90px; }
   .team img {
     margin-top: 45px;
     max-width: 100%; }
@@ -8890,7 +8941,7 @@ form {
 
 .client {
   background: #252222;
-  padding: 42px 0 90px; }
+  padding: 42px 10px 90px; }
   .client-flex {
     display: flex;
     margin-bottom: 71px; }
@@ -8915,7 +8966,7 @@ form {
 .slider {
   background: url(../images/bg-6.jpg);
   background-repeat: no-repeat;
-  padding: 20px 5px 75px;
+  padding: 20px 10px 75px;
   background-size: cover; }
 
 .wedding__item {
@@ -8962,10 +9013,11 @@ form {
 .footer-main {
   background: url(../images/bg-7.jpg);
   background-repeat: no-repeat;
-  padding-top: 190px; }
+  padding: 190px 10px 0; }
   @media screen and (max-width: 1200px) {
     .footer-main {
-      background-size: cover; } }
+      background-size: cover;
+      padding-top: 100px; } }
   @media screen and (max-width: 600px) {
     .footer-main {
       padding-top: 50px; } }
@@ -8992,7 +9044,8 @@ form {
   .footer-content {
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    padding: 0 10px; }
     @media screen and (max-width: 600px) {
       .footer-content {
         flex-direction: column; } }

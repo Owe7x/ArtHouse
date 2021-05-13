@@ -1,11 +1,26 @@
 .header {
     background: #E7E5E5;
-    padding: 25px 0;
+    padding: 15px 10px;
+    &-text {
+        font-size: 28px;
+        color: black;
+        font-family: 'Montserrat-Bold';
+        @include breakpoint($bp-900) {
+            font-size: 24px;
+            text-align: center;
+        }
+        @include breakpoint($bp-700) {
+            margin: 10px 0;
+        }
+        @include breakpoint($bp-400) {
+            font-size: 18px;
+        }
+    }
     &__inner {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        @include breakpoint($bp-600) {
+        @include breakpoint($bp-700) {
             flex-direction: column;
         }
     }
@@ -26,6 +41,9 @@
                 line-height: 18px;
             }
         }
+        @include breakpoint($bp-700) {
+            align-items: center;
+        }
     }
 }
 .header-tel {
@@ -34,6 +52,12 @@
     font-weight: 600;
     text-decoration: none;
     line-height: 26px;
+    @include breakpoint($bp-900) {
+        text-align: right;
+    }
+    @include breakpoint($bp-700) {
+        text-align: center;
+    }
 }
 .container-1920 {
     max-width: 1920px;

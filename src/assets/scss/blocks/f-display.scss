@@ -41,8 +41,10 @@
     justify-content: space-between;
     margin-top: 61px;
     margin-bottom: 70px;
+    padding: 0 10px;
 }
 .f-display-img {
+    padding: 0 10px;
     img {
         max-width: 100%;
     }
@@ -53,11 +55,9 @@
     }
 }
 .f-display-bg {
-    padding-top: 153px;
     background: url(../images/bg-1.jpg);
     background-repeat: no-repeat;
-    padding-top: 153px;
-    padding-bottom: 90px;
+    padding: 80px 10px 0px;
     @include breakpoint($bp-600) {
         background-size: cover;
         background-position: center center;

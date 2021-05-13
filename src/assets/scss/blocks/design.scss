@@ -4,7 +4,7 @@
         padding: 45px;
     }
     @include breakpoint($bp-600) {
-        padding: 10px 0;
+        padding: 35px 10px 10px;
     }
     &-ul {
         padding: 0;

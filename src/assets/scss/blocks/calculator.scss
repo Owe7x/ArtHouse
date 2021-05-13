@@ -1,9 +1,8 @@
 .calculator {
-    padding-top: 42px;
     background: url(../images/bg-3.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    padding-bottom: 81px;
+    padding: 42px 10px 81px;
     @include breakpoint($bp-1400) {
         background: none;
     }

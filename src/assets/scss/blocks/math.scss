@@ -1,9 +1,11 @@
 .math {
     background: url(../images/bg-2.jpg);
     background-repeat: no-repeat;
-    padding: 58px 0 380px;
-    @include breakpoint($bp-600) {
-        padding: 58px 0 100px;
+    background-size: 100% 100%;
+    padding: 58px 10px 200px;
+    @include breakpoint($bp-900) {
+        padding: 58px 10px 100px;
+        background-size: cover;
     }
 }
 .math-container {

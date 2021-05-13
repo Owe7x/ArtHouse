@@ -1,9 +1,10 @@
 .footer-main {
     background: url(../images/bg-7.jpg);
     background-repeat: no-repeat;
-    padding-top: 190px;
+    padding: 190px 10px 0;
     @include breakpoint($bp-1200) {
         background-size: cover;
+        padding-top: 100px;
     }
     @include breakpoint($bp-600) {
         padding-top: 50px;

@@ -106,6 +106,12 @@ form {
             line-height: 23px;
             color: #878484;
         }
+        @include breakpoint($bp-1200) {
+            width: 340px;
+        }
+        @include breakpoint($bp-600) {
+            width: 220px;
+        }
     }
 
 }

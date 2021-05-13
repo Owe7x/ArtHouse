@@ -84,6 +84,7 @@
         font-size: 48px;
         line-height: 62px;
         margin-bottom: 66px;
+        padding: 0 10px;
         @include breakpoint($bp-1200) {
             font-size: 38px;
             line-height: 42px;
@@ -154,7 +155,7 @@
     }
     &--black {
         color: black;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
     &--green {
         font-family: 'Montserrat-Bold';
@@ -182,12 +183,14 @@
     font-size: 20px;
     line-height: 26px;
     color: black;
+    padding: 0 10px;
     &__p {
         font-family: 'Montserrat-Regular';
         font-size: 18px;
         line-height: 23px;
         font-weight: normal;
         color: black;
+        padding: 0 10px;
     }
     &--502 {
         max-width: 502px;
@@ -227,6 +230,10 @@
         max-width: 927px;
         margin-left: 100px;
         margin-bottom: 63px;
+        @include breakpoint($bp-600) {
+            margin-left: 0px;
+            margin-bottom: 40px;
+        }
     }
     &--741 {
         max-width: 847px;
@@ -260,11 +267,22 @@
         @include breakpoint($bp-600) {
             font-size: 13px;
             line-height: 17px;
+            
         }
     }
     &--542 {
         max-width: 542px;
         color: black;
+        @include breakpoint($bp-600) {
+            font-size: 22px;
+            line-height: 28px;
+            font-family: 'Montserrat-Bold';
+        }
+        @include breakpoint($bp-600) {
+            font-size: 20px;
+            line-height: 28px;
+            font-family: 'Montserrat-SemiBold';
+        }
     }
     &--442 {
         max-width: 486px;
