@@ -1,12 +1,19 @@
 .header {
     background: #E7E5E5;
     padding: 15px 10px;
+    &-logo {
+        img {
+            @include breakpoint($bp-900) {
+                max-width: 200px;
+            }
+        }
+    }
     &-text {
         font-size: 28px;
         color: black;
         font-family: 'Montserrat-Bold';
         @include breakpoint($bp-900) {
-            font-size: 24px;
+            font-size: 20px;
             text-align: center;
         }
         @include breakpoint($bp-700) {
@@ -34,6 +41,10 @@
             line-height: 36px;
             @include breakpoint($bp-1200) {
                 font-size: 16px;
+                line-height: 25px;
+            }
+            @include breakpoint($bp-900) {
+                font-size: 14px;
                 line-height: 25px;
             }
             @include breakpoint($bp-600) {

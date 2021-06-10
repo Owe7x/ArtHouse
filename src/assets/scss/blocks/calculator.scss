@@ -148,3 +148,13 @@
     }
     
 }
+
+.irs--flat .irs-handle > i:first-child {
+    &:hover {
+        top: -2px;
+        width: 38px;
+        height: 38px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}

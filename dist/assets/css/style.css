@@ -14276,7 +14276,7 @@ form {
 .footer-main {
     background: url(../images/bg-7.jpg);
     background-repeat: no-repeat;
-    padding: 190px 10px 0;
+    padding: 190px 50px 0;
 }
 
 @media screen and (max-width: 1200px) {
@@ -14288,7 +14288,7 @@ form {
 
 @media screen and (max-width: 600px) {
     .footer-main {
-        padding-top: 50px;
+        padding: 50px 50px 0;
     }
 }
 
