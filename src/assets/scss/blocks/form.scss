@@ -142,4 +142,37 @@ form {
         line-height: 16px;
     }
 }
-
+.fancybox-content {
+    padding: 0;
+}
+.form-modal {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: none;
+    height: auto;
+}
+.form__title {
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000;
+}
+.form__link-modal {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.form-input-modal {
+    margin-bottom: 15px;
+}
+.form-p-modal {
+    padding: 15px;
+}
+.fancybox-close-small {
+    background: black;
+}
+.fancybox-button svg {
+    color: white;
+}

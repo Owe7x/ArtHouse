@@ -12,7 +12,7 @@
     <meta name="google" content="notranslate">
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="">
-    
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
     <title>ArtHouse</title>
 </head>
 <body>
@@ -93,7 +93,9 @@
                                         <label for="email">Почта</label>
                                         <input type="email" data-validate-field="email" name="email" placeholder="email@mail.com"></input>
                                     </div>
-                                    <button type="submit" value="Submit" class="btn btn--form">Получить Материалы <br> <span class="f-300">winrar, 4mb</span></button>  
+                                    <div class="button-img">
+                                        <button type="submit" value="Submit" class="btn boot btn--form"> Получить Материалы <br> <span class="f-300">winrar, 4mb</span></button>  
+                                    </div>
                                 </div> 
                                 <div class="form-p">
                                     нажимая на кнопку, я подтверждаю, что ознакомлен и даю согласие  на обработку персональных данных на условиях и для целей, определяемых <a data-fancybox href="#politic-conf" style="text-decoration: underline;">политикой конфиденциальности</a>
@@ -178,7 +180,7 @@
                         </div>
                     </div>
                     <div class="key-btn">
-                        <button class="btn"> Смотреть больше</button>
+                        <button class="btn boot"> <a data-fancybox href="#more" style="text-decoration: none;">Узнать больше о кейсах</a></button>
                     </div>
                 </div>
             </div>
@@ -277,7 +279,7 @@
                                         </div>
                                     </div>
                                     <div class="option-btn">
-                                        <button class="btn">Узнать больше 	&rarr; </button>
+                                        <button class="btn boot">Узнать больше 	&rarr; </button>
                                     </div>
                                 </div>
                             </div>
@@ -294,7 +296,7 @@
                                         </div>
                                     </div>
                                     <div class="option-btn">
-                                        <button class="btn">Узнать больше 	&rarr; </button>
+                                        <button class="btn boot">Узнать больше 	&rarr; </button>
                                     </div>
                                 </div>
                             </div>
@@ -311,7 +313,7 @@
                                         </div>
                                     </div>
                                     <div class="option-btn">
-                                        <button class="btn">Узнать больше 	&rarr; </button>
+                                        <button class="btn boot">Узнать больше 	&rarr; </button>
                                     </div>
                                 </div>
                             </div>
@@ -328,7 +330,7 @@
                                         </div>
                                     </div>
                                     <div class="option-btn">
-                                        <button class="btn">Узнать больше 	&rarr; </button>
+                                        <button class="btn boot">Узнать больше 	&rarr; </button>
                                     </div>
                                 </div>
                             </div>
@@ -527,7 +529,7 @@
                         </div>
                     </div>
                     <div class="calc-btn">
-                        <button class="btn btn--calc">
+                        <button class="btn btn--calc boot">
                             Зафиксировать прибыль 
                         </button>
                     </div>
@@ -549,7 +551,7 @@
                                         Приглашаем на личную консультацию в студию ART HOUSE
                                     </div>
                                     <div class="tools-btn">
-                                        <button class="btn">
+                                        <button class="btn boot">
                                             Назначить время
                                         </button>
                                     </div>
@@ -929,7 +931,7 @@
                                     <label for="city">Город</label>
                                     <input name="city" data-validate-field="city" placeholder="Ваш город">
                                 </div>
-                                <button type="submit" value="Submit" class="btn btn-form--footer">Проверить свой город </span></button>  
+                                <button type="submit" value="Submit" class="btn btn-form--footer boot">Проверить свой город </span></button>  
                             </div> 
                             <div class="form-p">
                                 нажимая на кнопку, я подтверждаю, что ознакомлен и даю согласие  на обработку персональных данных на условиях и для целей, определяемых <a data-fancybox href="#politic-conf" style="text-decoration: underline;">политикой конфиденциальности</a>
@@ -938,7 +940,37 @@
                     </div>
                 </div>
             </div>
-            <div style="display: none; max-width: 600px; color: #000;" id="politic-conf">
+            <div class="modal-form" id="more" style="display: none;">
+                <form action="mail.php" method="post" id="form3" class="form-modal">
+                    <div class="form__title">
+                      Узнать больше о кейсах
+                    </div>
+                    <div class="form-input form-input-modal">
+                        <input type="hidden" name="admin_email[]" value="leads@conversionpro.agency">
+                        <input type="hidden" name="admin_email[]" value="safr-i@mail.ru">
+                        <input type="hidden" name="form_subject" value="Первая Форма">
+                        <div class="form__link form__link-modal">
+                            <label for="name">Имя</label>
+                            <input type="text" id="fname" data-validate-field="name" name="name" >
+                            <label for="fname" class="error"></label>
+                        </div>
+                        <div class="form__link form__link-modal">
+                            <label for="tel">Телефон</label>
+                            <input type="tel" data-validate-field="tel" name="tel" placeholder="+ _ (___) ___-____">
+                        </div>
+                        <div class="form__link form__link-modal">
+                            <label for="email">Почта</label>
+                            <input type="email" data-validate-field="email" name="email" placeholder="example@mail.ru">
+                        </div>
+                        <button type="submit" value="Submit" class="btn btn--long">Узнать больше</button>  
+                    </div> 
+                    <div class="form-p form-p-modal">
+                        Нажимая на кнопку «Получить документацию», я даю согласие на обработку персональных данных
+                и соглашаюсь с <a data-fancybox href="#politic-conf" style="text-decoration: underline;">политикой конфиденциальности</a>
+                    </div>
+                </form>
+            </div>
+            <div style="display: none; max-width: 600px; color: #000; padding: 44px;" id="politic-conf">
                 <span style="font-size: 24px; font-weight: bold;">Политика конфиденциальности</span>
                 <p style="font-size: 20px; font-weight: bold;">1. Общие положения</p>
                 <p>Настоящая политика обработки персональных данных составлена в соответствии с требованиями Федерального закона от 27.07.2006. №152-ФЗ «О персональных данных» и определяет порядок обработки персональных данных и меры по обеспечению безопасности персональных данных.</p>

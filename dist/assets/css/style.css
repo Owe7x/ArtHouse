@@ -12423,6 +12423,12 @@ body {
     padding: 15px 10px;
 }
 
+@media screen and (max-width: 900px) {
+    .header-logo img {
+        max-width: 200px;
+    }
+}
+
 .header-text {
     font-size: 28px;
     color: black;
@@ -12431,7 +12437,7 @@ body {
 
 @media screen and (max-width: 900px) {
     .header-text {
-        font-size: 24px;
+        font-size: 20px;
         text-align: center;
     }
 }
@@ -12482,6 +12488,13 @@ body {
 @media screen and (max-width: 1200px) {
     .header-info a {
         font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header-info a {
+        font-size: 14px;
         line-height: 25px;
     }
 }
@@ -13541,6 +13554,11 @@ form {
     margin: 0 auto;
 }
 
+.btn:hover, .btn:active {
+    box-shadow: 0px 6px 0px #DFC229, 0px 19px 14px rgba(198, 172, 35, 0.3);
+    background: #ffee00;
+}
+
 .btn--form {
     width: 312px !important;
     font-family: 'Montserrat-SemiBold';
@@ -14017,6 +14035,14 @@ form {
         font-size: 42px;
         line-height: 52px;
     }
+}
+
+.irs--flat .irs-handle > i:first-child:hover {
+    top: -2px;
+    width: 38px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .tools {
