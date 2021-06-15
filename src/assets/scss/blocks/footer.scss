@@ -14,7 +14,7 @@
     &-info {
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
         @include breakpoint($bp-600) {
             align-items: center;
         }
@@ -24,6 +24,7 @@
             margin-bottom: 10px;
         }
     }
+
 }
 .arthouse {
     font-family: 'Montserrat-SemiBold';

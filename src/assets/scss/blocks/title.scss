@@ -78,7 +78,7 @@
         }
     }
     &--1053 {
-        margin-top: 43px;
+        margin-top: 80px;
         max-width: 1053px;
         color: black;
         font-size: 48px;
@@ -163,8 +163,8 @@
     &--green {
         font-family: 'Montserrat-Bold';
         color: #C9E915;
-        font-size: 72px;
-        line-height: 72px;
+        font-size: 52px;
+        line-height: 66px;
         text-transform: uppercase;
         margin-bottom: 69px;
         @include breakpoint($bp-1200) {
@@ -243,7 +243,7 @@
         color: black;
         margin-bottom: 145px;
         @include breakpoint($bp-600) {
-            margin-bottom: 85px;
+            margin-bottom: 45px;
         }
     }
     &--747 {
@@ -283,7 +283,7 @@
         }
         @include breakpoint($bp-600) {
             font-size: 20px;
-            line-height: 28px;
+            line-height: 22px;
             font-family: 'Montserrat-SemiBold';
         }
     }
@@ -333,12 +333,12 @@
         margin-right: 85px;
         &:nth-child(2) {
             @include breakpoint($bp-600) {
-                margin-bottom: 150px;
+                margin-bottom: 65px;
             }
         }
         &:nth-child(3) {
             @include breakpoint($bp-600) {
-                margin-bottom: 0;
+                margin-bottom: 10px;
             }
         }
         @include breakpoint($bp-1200) {
@@ -350,7 +350,7 @@
             line-height: 17px;
             margin-right: 0;
             max-width: 250px;
-            margin: 0 auto 130px;
+            margin: 0 auto 65px;
         }
         
     }

@@ -10,6 +10,10 @@
     line-height: 130%;
     text-align: center;
     margin: 0 auto;
+    &-green {
+        background: #C9E915;
+        box-shadow: 0px 4px 0px #afcc0c, 0px 9px 4px rgba(198, 172, 35, 0.3);
+    }
     &:hover, &:active {
         box-shadow: 0px 6px 0px #DFC229, 0px 19px 14px rgba(198, 172, 35, 0.3);
         background: rgb(255, 238, 0);

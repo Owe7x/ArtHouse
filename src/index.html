@@ -7,7 +7,7 @@ title: ArtHouse
     <div class="f-display-bg">
         <div class="container">
             <div class="title title--1026">
-                Откройте дизайн-студию под франшизой известного бренда и зарабатывайте от <span class="yellow"> 400 000 до 500 000 </span> рублей с одного проекта
+                ОТКРОЙТЕ ДИЗАЙН-СТУДИЮ ПО ФРАНШИЗЕ ИЗВЕСТНОГО БРЕНДА И ЗАРАБАТЫВАЙТЕ ОТ  <span class="yellow"> 400 000 ДО 500 000 </span> РУБЛЕЙ С ОДНОГО ПРОЕКТА
             </div>
             <div class="f-display__nav">
                 <ul class="f-display__ul">
@@ -15,13 +15,13 @@ title: ArtHouse
                             4 проверенных бизнес-модели 
                     </li>
                     <li class="f-display__li">
-                        Заработок в B2B и B2C
+                        Заработок в B2B и B2C сегменте
                     </li>
                     <li class="f-display__li">
-                        Без собственной команды дизайнеров 
+                        Занимаемся дизайном интерьеров с 2013 года
                     </li>
                     <li class="f-display__li">
-                        От 5 до 10 проектов в месяц
+                        От 5 до 10 сделок в месяц
                     </li>
                 </ul>
             </div>
@@ -61,7 +61,7 @@ title: ArtHouse
                             <input type="email" data-validate-field="email" name="email" placeholder="email@mail.com"></input>
                         </div>
                         <div class="button-img">
-                            <button type="submit" value="Submit" class="btn boot btn--form"> Получить Материалы <br> <span class="f-300">winrar, 4mb</span></button>  
+                            <button type="submit" value="Submit" class="btn boot btn--form"> Получить материалы <br> <span class="f-300">winrar, 4mb</span></button>  
                         </div>
                     </div> 
                     <div class="form-p">
@@ -246,7 +246,7 @@ title: ArtHouse
                             </div>
                         </div>
                         <div class="option-btn">
-                            <button class="btn boot">Узнать больше 	&rarr; </button>
+                            <button class="btn boot btn-green">Узнать больше 	&rarr; </button>
                         </div>
                     </div>
                 </div>
@@ -263,7 +263,7 @@ title: ArtHouse
                             </div>
                         </div>
                         <div class="option-btn">
-                            <button class="btn boot">Узнать больше 	&rarr; </button>
+                            <button class="btn boot btn-green">Узнать больше 	&rarr; </button>
                         </div>
                     </div>
                 </div>
@@ -280,7 +280,7 @@ title: ArtHouse
                             </div>
                         </div>
                         <div class="option-btn">
-                            <button class="btn boot">Узнать больше 	&rarr; </button>
+                            <button class="btn boot btn-green">Узнать больше 	&rarr; </button>
                         </div>
                     </div>
                 </div>
@@ -297,7 +297,7 @@ title: ArtHouse
                             </div>
                         </div>
                         <div class="option-btn">
-                            <button class="btn boot">Узнать больше 	&rarr; </button>
+                            <button class="btn boot btn-green">Узнать больше 	&rarr; </button>
                         </div>
                     </div>
                 </div>
@@ -640,13 +640,13 @@ title: ArtHouse
             За последние годы спрос на дизайнерские интерьеры значительно выросла, и в ближайшее время эта тенденция не изменится
         </div>
         <div class="market-flex">
-            <div class="p p--335 bg-text bg-text--1">
+            <div class="p p--335 bg-text bg-text--2">
                 Ремонт без проекта всегда приводит к дополнительным тратам и, как правило, не приносит желаемого результата — и всё больше людей это понимают
             </div>
-            <div class="p p--335 bg-text bg-text--1">
+            <div class="p p--335 bg-text bg-text--2">
                 Продуманные и качественно выполненные интерьеры подчёркивают статус владельца            
             </div>
-            <div class="p p--335 bg-text bg-text--1">
+            <div class="p p--335 bg-text bg-text--2">
                 Дизайн на заказ помогает клиентам получать действительно уютные и удобные пространства для жизни и работы
             </div>
         </div>
@@ -906,6 +906,36 @@ title: ArtHouse
             </form>
         </div>
     </div>
+</div>
+<div class="modal-form" id="tel" style="display: none;">
+    <form action="mail.php" method="post" id="form4" class="form-modal">
+        <div class="form__title">
+          Заказать звонок
+        </div>
+        <div class="form-input form-input-modal">
+            <input type="hidden" name="admin_email[]" value="leads@conversionpro.agency">
+            <input type="hidden" name="admin_email[]" value="safr-i@mail.ru">
+            <input type="hidden" name="form_subject" value="Первая Форма">
+            <div class="form__link form__link-modal">
+                <label for="name">Имя</label>
+                <input type="text" id="fname" data-validate-field="name" name="name" >
+                <label for="fname" class="error"></label>
+            </div>
+            <div class="form__link form__link-modal">
+                <label for="tel">Телефон</label>
+                <input type="tel" data-validate-field="tel" name="tel" placeholder="+ _ (___) ___-____">
+            </div>
+            <div class="form__link form__link-modal">
+                <label for="email">Почта</label>
+                <input type="email" data-validate-field="email" name="email" placeholder="example@mail.ru">
+            </div>
+            <button type="submit" value="Submit" class="btn btn--long">Заказать звонок</button>  
+        </div> 
+        <div class="form-p form-p-modal">
+            Нажимая на кнопку «Получить документацию», я даю согласие на обработку персональных данных
+    и соглашаюсь с <a data-fancybox href="#politic-conf" style="text-decoration: underline;">политикой конфиденциальности</a>
+        </div>
+    </form>
 </div>
 <div class="modal-form" id="more" style="display: none;">
     <form action="mail.php" method="post" id="form3" class="form-modal">

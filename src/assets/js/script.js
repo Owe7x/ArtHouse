@@ -65,6 +65,7 @@ let validateForms = function(selector, rules) {
 validateForms('#form1', { email: {required: true, email: true}, tel: {required: true}, name: {required: true}  });
 validateForms('#form2', { email: {required: true, email: true}, tel: {required: true}, name: {required: true}, city: {required: true}  });
 validateForms('#form3', { email: {required: true, email: true}, tel: {required: true}, name: {required: true},  });
+validateForms('#form4', { email: {required: true, email: true}, tel: {required: true}, name: {required: true},  });
 
 function getRandom(min, max){
 	return Math.random() * (max - min) + min;
