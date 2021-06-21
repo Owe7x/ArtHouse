@@ -7840,7 +7840,7 @@ body {
     .header-logo img {
       max-width: 200px; } }
   .header-text {
-    font-size: 28px;
+    font-size: 18px;
     color: black;
     font-family: 'Montserrat-Regular'; }
     @media screen and (max-width: 900px) {
@@ -7900,6 +7900,13 @@ body {
 .container-1920 {
   max-width: 1920px;
   margin: 0 auto; }
+
+.header-info-img {
+  display: flex;
+  align-items: center; }
+
+.header-info-phone {
+  margin-right: 5px; }
 
 @font-face {
   font-family: 'Montserrat-Bold';
@@ -8292,6 +8299,9 @@ body {
 .f-300 {
   font-family: 'Montserrat-Regular';
   font-weight: 300 !important; }
+
+.yellow {
+  color: #FAC500; }
 
 .f-display {
   padding-bottom: 90px; }
@@ -8738,7 +8748,7 @@ form {
       font-size: 20px;
       line-height: 26px;
       padding: 28px 20px;
-      background: #FAC500; }
+      background: #C9E915; }
     .option-block__p {
       text-align: center;
       padding: 33px 16px 0;
@@ -9143,7 +9153,8 @@ form {
 .footer-main {
   background: url(../images/bg-7.jpg);
   background-repeat: no-repeat;
-  padding: 190px 50px 0; }
+  padding: 80px 50px 0;
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .footer-main {
       background-size: cover;
@@ -9161,7 +9172,7 @@ form {
     width: 465px;
     height: 465px;
     position: absolute;
-    top: -140px;
+    top: -17px;
     right: 0; }
     @media screen and (max-width: 1400px) {
       .footer-main-container::after {
