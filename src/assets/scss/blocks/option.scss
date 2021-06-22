@@ -1,6 +1,6 @@
 .option {
     background: #252222;
-    padding: 40px 50px 90px;
+    padding: 80px 50px 90px;
     @include breakpoint($bp-600) {
         padding: 40px 10px 90px;
     }
@@ -19,7 +19,7 @@
             font-size: 20px;
             line-height: 26px;
             padding: 28px 20px;
-            background: #C9E915;
+            background: #FAC500;
             
         }
         &__p {

@@ -1,10 +1,10 @@
 .market {
     background: url(../images/bg-5.jpg);
     background-repeat: no-repeat;
-    padding: 28px 50px 330px;
+    padding: 80px 50px 200px;
     &-flex {
         display: flex;
-        margin-bottom: 113px;
+        margin-bottom: 90px;
         @include breakpoint($bp-600) {
             flex-direction: column;
         }

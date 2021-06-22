@@ -18,6 +18,11 @@
         @include breakpoint($bp-600) {
             align-items: center;
         }
+        a {
+            font-family: 'Montserrat-Regular';
+            font-size: 18px;
+            line-height: 36px;
+        }
     }
     &-logo {
         @include breakpoint($bp-600) {

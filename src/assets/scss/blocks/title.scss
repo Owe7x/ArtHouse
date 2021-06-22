@@ -276,6 +276,9 @@
     &--542 {
         max-width: 542px;
         color: black;
+        font-family: 'Montserrat-Bold';
+        font-size: 26px;
+        line-height: 30px;
         @include breakpoint($bp-600) {
             font-size: 22px;
             line-height: 28px;

@@ -77,6 +77,11 @@
 .header-info-img {
     display: flex;
     align-items: center;
+    a {
+        font-family: 'Montserrat-Regular';
+        font-size: 18px;
+        line-height: 36px;
+    }
 }
 .header-info-phone {
     margin-right: 5px;

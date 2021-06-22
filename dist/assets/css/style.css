@@ -12430,7 +12430,7 @@ body {
 }
 
 .header-text {
-    font-size: 28px;
+    font-size: 18px;
     color: black;
     font-family: 'Montserrat-Regular';
 }
@@ -12536,6 +12536,17 @@ body {
 .container-1920 {
     max-width: 1920px;
     margin: 0 auto;
+}
+
+.header-info-img {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header-info-phone {
+    margin-right: 5px;
 }
 
 @font-face {
@@ -13131,6 +13142,10 @@ body {
 .f-300 {
     font-family: 'Montserrat-Regular';
     font-weight: 300 !important;
+}
+
+.yellow {
+    color: #FAC500;
 }
 
 .f-display {
@@ -13822,7 +13837,7 @@ form {
     font-size: 20px;
     line-height: 26px;
     padding: 28px 20px;
-    background: #FAC500;
+    background: #C9E915;
 }
 
 .option-block__p {
@@ -14406,7 +14421,8 @@ form {
 .footer-main {
     background: url(../images/bg-7.jpg);
     background-repeat: no-repeat;
-    padding: 190px 50px 0;
+    padding: 80px 50px 0;
+    background-size: cover;
 }
 
 @media screen and (max-width: 1200px) {
@@ -14433,7 +14449,7 @@ form {
     width: 465px;
     height: 465px;
     position: absolute;
-    top: -140px;
+    top: -17px;
     right: 0;
 }
 
