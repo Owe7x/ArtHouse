@@ -12631,7 +12631,7 @@ body {
     font-size: 72px;
     line-height: 72px;
     color: #252222;
-    margin-bottom: 69px;
+    margin-bottom: 39px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -12697,7 +12697,7 @@ body {
 }
 
 .title--1053 {
-    margin-top: 80px;
+    margin-top: 43px;
     max-width: 1053px;
     color: black;
     font-size: 48px;
@@ -12919,7 +12919,7 @@ body {
 .p--741 {
     max-width: 847px;
     color: black;
-    margin-bottom: 145px;
+    margin-bottom: 110px;
 }
 
 @media screen and (max-width: 600px) {
@@ -12969,8 +12969,8 @@ body {
     max-width: 542px;
     color: black;
     font-family: 'Montserrat-Bold';
-    font-size: 26px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 26px;
 }
 
 @media screen and (max-width: 600px) {
@@ -13158,7 +13158,7 @@ body {
 }
 
 .f-display {
-    padding-bottom: 90px;
+    padding-bottom: 84px;
 }
 
 .f-display__nav {
@@ -13559,7 +13559,7 @@ form {
 
 .key {
     background: #252222;
-    padding: 80px 50px 90px;
+    padding: 33px 50px 90px;
 }
 
 .key-more {
@@ -13736,7 +13736,7 @@ form {
 }
 
 .design {
-    padding: 80px 90px 90px;
+    padding: 69px 90px 90px;
 }
 
 @media screen and (max-width: 900px) {
@@ -13816,7 +13816,7 @@ form {
 
 .option {
     background: #252222;
-    padding: 80px 50px 90px;
+    padding: 40px 50px 77px;
 }
 
 @media screen and (max-width: 600px) {
@@ -13878,7 +13878,7 @@ form {
     background: url(../images/bg-2.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 80px 50px 200px;
+    padding: 58px 50px 200px;
 }
 
 @media screen and (max-width: 900px) {
@@ -13958,7 +13958,7 @@ form {
     background: url(../images/bg-3.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    padding: 80px 50px 81px;
+    padding: 42px 50px 81px;
 }
 
 @media screen and (max-width: 1400px) {
@@ -14167,7 +14167,7 @@ form {
 
 .tools {
     background: #252222;
-    padding: 80px 50px 80px;
+    padding: 40px 50px 80px;
 }
 
 @media screen and (max-width: 600px) {
@@ -14249,7 +14249,7 @@ form {
 .market {
     background: url(../images/bg-5.jpg);
     background-repeat: no-repeat;
-    padding: 80px 50px 200px;
+    padding: 28px 50px 300px;
 }
 
 .market-flex {
@@ -14282,7 +14282,7 @@ form {
 }
 
 .team {
-    padding: 80px 50px 90px;
+    padding: 45px 50px 90px;
 }
 
 .team img {
@@ -14312,7 +14312,7 @@ form {
 
 .client {
     background: #252222;
-    padding: 80px 50px 90px;
+    padding: 42px 50px 90px;
 }
 
 @media screen and (max-width: 600px) {
@@ -14363,7 +14363,7 @@ form {
 .slider {
     background: url(../images/bg-6.jpg);
     background-repeat: no-repeat;
-    padding: 80px 10px 75px;
+    padding: 20px 10px 75px;
     background-size: cover;
 }
 
