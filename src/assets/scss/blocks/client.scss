@@ -1,6 +1,6 @@
 .client {
     background: #252222;
-    padding: 80px 50px 90px;
+    padding: 42px 50px 90px;
     @include breakpoint($bp-600) {
         padding: 42px 10px 90px;
     }

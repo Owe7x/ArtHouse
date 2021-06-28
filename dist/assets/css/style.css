@@ -12545,6 +12545,12 @@ body {
     align-items: center;
 }
 
+.header-info-img a {
+    font-family: 'Montserrat-Regular';
+    font-size: 18px;
+    line-height: 36px;
+}
+
 .header-info-phone {
     margin-right: 5px;
 }
@@ -12962,6 +12968,9 @@ body {
 .p--542 {
     max-width: 542px;
     color: black;
+    font-family: 'Montserrat-Bold';
+    font-size: 26px;
+    line-height: 30px;
 }
 
 @media screen and (max-width: 600px) {
@@ -13155,6 +13164,7 @@ body {
 .f-display__nav {
     margin-top: 80px;
     margin-bottom: 85px;
+    padding-left: 50px;
 }
 
 .f-display__li {
@@ -13549,7 +13559,7 @@ form {
 
 .key {
     background: #252222;
-    padding: 33px 50px 90px;
+    padding: 80px 50px 90px;
 }
 
 .key-more {
@@ -13605,8 +13615,8 @@ form {
 .btn {
     width: 270px;
     height: 66px;
-    background: #FFDE31;
-    box-shadow: 0px 4px 0px #DFC229, 0px 9px 4px rgba(198, 172, 35, 0.3);
+    background: #C9E915;
+    box-shadow: 0px 4px 0px #afcc0c, 0px 9px 4px rgba(198, 172, 35, 0.3);
     border-radius: 39px;
     font-family: 'Montserrat-SemiBold';
     font-weight: 600;
@@ -13614,11 +13624,6 @@ form {
     line-height: 130%;
     text-align: center;
     margin: 0 auto;
-}
-
-.btn-green {
-    background: #C9E915;
-    box-shadow: 0px 4px 0px #afcc0c, 0px 9px 4px rgba(198, 172, 35, 0.3);
 }
 
 .btn:hover, .btn:active {
@@ -13731,7 +13736,7 @@ form {
 }
 
 .design {
-    padding: 90px;
+    padding: 80px 90px 90px;
 }
 
 @media screen and (max-width: 900px) {
@@ -13811,7 +13816,7 @@ form {
 
 .option {
     background: #252222;
-    padding: 40px 50px 90px;
+    padding: 80px 50px 90px;
 }
 
 @media screen and (max-width: 600px) {
@@ -13837,7 +13842,7 @@ form {
     font-size: 20px;
     line-height: 26px;
     padding: 28px 20px;
-    background: #C9E915;
+    background: #FAC500;
 }
 
 .option-block__p {
@@ -13873,7 +13878,7 @@ form {
     background: url(../images/bg-2.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 58px 50px 200px;
+    padding: 80px 50px 200px;
 }
 
 @media screen and (max-width: 900px) {
@@ -13953,7 +13958,7 @@ form {
     background: url(../images/bg-3.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    padding: 42px 50px 81px;
+    padding: 80px 50px 81px;
 }
 
 @media screen and (max-width: 1400px) {
@@ -14162,7 +14167,7 @@ form {
 
 .tools {
     background: #252222;
-    padding: 50px 50px 80px;
+    padding: 80px 50px 80px;
 }
 
 @media screen and (max-width: 600px) {
@@ -14244,13 +14249,13 @@ form {
 .market {
     background: url(../images/bg-5.jpg);
     background-repeat: no-repeat;
-    padding: 28px 50px 330px;
+    padding: 80px 50px 200px;
 }
 
 .market-flex {
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 113px;
+    margin-bottom: 90px;
 }
 
 @media screen and (max-width: 600px) {
@@ -14277,7 +14282,7 @@ form {
 }
 
 .team {
-    padding: 30px 50px 90px;
+    padding: 80px 50px 90px;
 }
 
 .team img {
@@ -14307,7 +14312,7 @@ form {
 
 .client {
     background: #252222;
-    padding: 42px 50px 90px;
+    padding: 80px 50px 90px;
 }
 
 @media screen and (max-width: 600px) {
@@ -14358,7 +14363,7 @@ form {
 .slider {
     background: url(../images/bg-6.jpg);
     background-repeat: no-repeat;
-    padding: 20px 10px 75px;
+    padding: 80px 10px 75px;
     background-size: cover;
 }
 
@@ -14496,6 +14501,12 @@ form {
         -ms-flex-align: center;
         align-items: center;
     }
+}
+
+.footer-info a {
+    font-family: 'Montserrat-Regular';
+    font-size: 18px;
+    line-height: 36px;
 }
 
 @media screen and (max-width: 600px) {

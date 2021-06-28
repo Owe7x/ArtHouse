@@ -34,7 +34,7 @@
         font-size: 72px;
         line-height: 72px;
         color: #252222;
-        margin-bottom: 69px;
+        margin-bottom: 39px;
         @include breakpoint($bp-1200) {
             font-size: 52px;
             line-height: 52px;
@@ -78,7 +78,7 @@
         }
     }
     &--1053 {
-        margin-top: 80px;
+        margin-top: 43px;
         max-width: 1053px;
         color: black;
         font-size: 48px;
@@ -241,7 +241,7 @@
     &--741 {
         max-width: 847px;
         color: black;
-        margin-bottom: 145px;
+        margin-bottom: 110px;
         @include breakpoint($bp-600) {
             margin-bottom: 45px;
         }
@@ -277,8 +277,8 @@
         max-width: 542px;
         color: black;
         font-family: 'Montserrat-Bold';
-        font-size: 26px;
-        line-height: 30px;
+        font-size: 20px;
+        line-height: 26px;
         @include breakpoint($bp-600) {
             font-size: 22px;
             line-height: 28px;

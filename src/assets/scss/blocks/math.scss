@@ -2,7 +2,7 @@
     background: url(../images/bg-2.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 80px 50px 200px;
+    padding: 58px 50px 200px;
     @include breakpoint($bp-900) {
         padding: 58px 10px 100px;
         background-size: cover;
